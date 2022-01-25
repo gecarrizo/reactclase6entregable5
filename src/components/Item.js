@@ -15,7 +15,7 @@ function Item({id, name, stock, cost, thumbnail, description}) {
                 <figcaption>
                     <p>{description}</p>    
                     <div className="cost">
-                        <s>{cost}</s>
+                        <p>${cost}</p>
                     </div>
                 </figcaption>
                 <a className="add-to-cart" href="#">Add to Cart</a>

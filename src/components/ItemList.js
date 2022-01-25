@@ -89,7 +89,7 @@ function ItemList() {
                 id={producto.id}
                 name={producto.name}
                 stock={producto.stock}
-                costo={producto.cost}
+                cost={producto.cost}
                 thumbnail={producto.thumbnail}
                 description={producto.description} 
               />            
